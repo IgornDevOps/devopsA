@@ -25,3 +25,5 @@ pipeline {
                 sh "docker stop python-flask && docker rm python-flask"
             }
         }
+    }
+}    
